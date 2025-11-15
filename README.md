@@ -52,22 +52,25 @@ Adjustable min/max lengths
 Progress bar while writing large lists
 
 📦 Installation
-git clone https://github.com/YourUsername/YourRepo.git
-cd YourRepo
+git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
+cd Multi-Cracking-Tool
 pip install -r requirements.txt
 
 🔧 Usage
 PDF Cracker
-python tool.py pdfcrack file.pdf --wordlist rockyou.txt
+python cracker.py pdfcrack file.pdf --wordlist rockyou.txt
 
 PDF Cracker (generate passwords)
-python tool.py pdfcrack file.pdf --generate --min_length 1 --max_length 4
+python cracker.py pdfcrack file.pdf --generate --charset abc123 --min_length 1 --max_length 4
 
 Wordlist Generator
-python tool.py C --min_length 1 --max_length 5 --output list.txt
+python cracker.py wordlistgen --charset abc123 --min_length 1 --max_length 5 --output list.txt
 
 Hash Cracker
-python tool.py hash <hash_value> -w wordlist.txt --hash_type sha256
+python cracker.py hashcrack <hash_value> -w wordlist.txt --hash_type sha256
+
+Hash Cracker (generate passwords)
+python cracker.py hashcrack <hash_value> -c abc123 --min_length 2 --max_length 5 --hash_type sha256 
 
 ⚠️ Legal Disclaimer
 
