@@ -1,4 +1,4 @@
-# 🔐 Multi-Purpose Cracking Tool
+# Multi-Purpose Cracking Tool
 
 A fast, multi-feature security testing toolkit for PDFs, hashes, and custom wordlist generation.
 This project is a multi-module password and hash-cracking tool built using Python. It includes support for PDF password cracking, hash cracking, and custom wordlist generation using flexible character sets and multi-threading.
@@ -48,32 +48,32 @@ Create wordlists using:
 
 -Progress bar while writing large lists
 
-#Installation
+# Installation
 -git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 -cd Multi-Cracking-Tool
 -pip install -r requirements.txt
 
 # Usage
-##PDF Cracker
+## PDF Cracker
 python cracker.py pdfcrack file.pdf --wordlist rockyou.txt
 
-##PDF Cracker (generate passwords)
+## PDF Cracker (generate passwords)
 python cracker.py pdfcrack file.pdf --generate --charset abc123 --min_length 1 --max_length 4
 
-##Wordlist Generator
+## Wordlist Generator
 python cracker.py wordlistgen --charset abc123 --min_length 1 --max_length 5 --output list.txt
 
-##Hash Cracker
+## Hash Cracker
 python cracker.py hashcrack <hash_value> -w wordlist.txt --hash_type sha256
 
-##Hash Cracker (generate passwords)
+## Hash Cracker (generate passwords)
 python cracker.py hashcrack <hash_value> -c abc123 --min_length 2 --max_length 5 --hash_type sha256 
 
-#Legal Disclaimer
+# Legal Disclaimer
 
 This tool is intended ONLY for educational and authorized security testing.
 Misuse for illegal activities is strictly prohibited. You are responsible for your actions.
 
-#Contributing
+# Contributing
 
 Pull requests and improvements are welcome!
