@@ -18,7 +18,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 
 -Progress bar included with tqdm
 
-### Hash Cracker
+#### Hash Cracker
 
 Supports common hash algorithms:
 
@@ -32,7 +32,7 @@ Supports common hash algorithms:
 
 -Clean progress display
 
-### Custom Wordlist Generator
+#### Custom Wordlist Generator
 
 Create wordlists using:
 
@@ -49,33 +49,33 @@ Create wordlists using:
 -Progress bar while writing large lists
 
 ## Installation
-### 1.Clone the repository:
+#### 1.Clone the repository:
 ```bash
 git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 cd Multi-Cracking-Tool
 ```
-### 2.Install dependencies: 
+#### 2.Install dependencies: 
 ```bash
 pip install -r requirements.txt
 ```
 # Usage
-### PDF Cracker
+#### PDF Cracker
 ```bash
 python cracker.py pdfcrack file.pdf --wordlist rockyou.txt
 ```
-### PDF Cracker (generate passwords)
+#### PDF Cracker (generate passwords)
 ```bash
 python cracker.py pdfcrack file.pdf --generate --charset abc123 --min_length 1 --max_length 4
 ```
-### Wordlist Generator
+#### Wordlist Generator
 ```bash
 python cracker.py wordlistgen --charset abc123 --min_length 1 --max_length 5 --output list.txt
 ```
-### Hash Cracker
+#### Hash Cracker
 ```bash
 python cracker.py hashcrack <hash_value> -w wordlist.txt --hash_type sha256
 ```
-### Hash Cracker (generate passwords)
+#### Hash Cracker (generate passwords)
 ```bash
 python cracker.py hashcrack <hash_value> -c abc123 --min_length 2 --max_length 5 --hash_type sha256 
 ```
