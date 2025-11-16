@@ -8,7 +8,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 ## Features
 -    #### PDF Password Cracker
 
--    Supports dictionary-based cracking
+     Supports dictionary-based cracking
 
 -    Supports on-the-fly password generation
 
