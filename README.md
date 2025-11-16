@@ -50,8 +50,8 @@ Create wordlists using:
 
 ## Installation
 ### 1.clone the repository:
--git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
--cd Multi-Cracking-Tool
+\\\git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
+\\\cd Multi-Cracking-Tool
 ### 2.Install dependencies: 
 -pip install -r requirements.txt
 
