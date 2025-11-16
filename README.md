@@ -49,30 +49,36 @@ Create wordlists using:
 -Progress bar while writing large lists
 
 ## Installation
-### 1.clone the repository:
-'''bash
+### 1.Clone the repository:
+```bash
 git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 cd Multi-Cracking-Tool
-'''
+```
 ### 2.Install dependencies: 
--pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 # Usage
 ### PDF Cracker
+```bash
 python cracker.py pdfcrack file.pdf --wordlist rockyou.txt
-
+```
 ### PDF Cracker (generate passwords)
+```bash
 python cracker.py pdfcrack file.pdf --generate --charset abc123 --min_length 1 --max_length 4
-
+```
 ### Wordlist Generator
+```bash
 python cracker.py wordlistgen --charset abc123 --min_length 1 --max_length 5 --output list.txt
-
+```
 ### Hash Cracker
+```bash
 python cracker.py hashcrack <hash_value> -w wordlist.txt --hash_type sha256
-
+```
 ### Hash Cracker (generate passwords)
+```bash
 python cracker.py hashcrack <hash_value> -c abc123 --min_length 2 --max_length 5 --hash_type sha256 
-
+```
 ## Legal Disclaimer
 
 This tool is intended ONLY for educational and authorized security testing.
