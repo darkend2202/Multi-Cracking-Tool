@@ -49,10 +49,10 @@ Create wordlists using:
 -Progress bar while writing large lists
 
 # Installation
-## 1.clone the repository:
+1.clone the repository:
 -git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 -cd Multi-Cracking-Tool
-## Install dependencies: 
+2.Install dependencies: 
 -pip install -r requirements.txt
 
 # Usage
