@@ -9,44 +9,27 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 #### PDF Password Cracker
 
 -Supports dictionary-based cracking
-
 -Supports on-the-fly password generation
-
 -Handles large wordlists like rockyou.txt using batch processing
-
 -Multi-threaded for improved speed
-
--Progress bar included with tqdm
 
 #### Hash Cracker
 
 Supports common hash algorithms:
-
 -MD5, SHA1, SHA224, SHA256, SHA384, SHA512
-
 -SHA3 family
-
 -Uses wordlist or generated passwords
-
 -ThreadPoolExecutor for parallel attempts
-
--Clean progress display
 
 #### Custom Wordlist Generator
 
 Create wordlists using:
 
 -Letters
-
 -Digits
-
 -Symbols
-
 -Any custom character set
-
 -Adjustable min/max lengths
-
--Progress bar while writing large lists
 
 ## Installation
 #### 1.Clone the repository:
