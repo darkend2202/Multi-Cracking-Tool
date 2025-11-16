@@ -50,6 +50,7 @@ Create wordlists using:
 
 ## Installation
 ### 1.clone the repository:
+bash
 \\\git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 \\\cd Multi-Cracking-Tool
 ### 2.Install dependencies: 
