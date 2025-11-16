@@ -13,8 +13,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
     - Supports on-the-fly password generation
 
     - Handles large wordlists like rockyou.txt using batch processing
-
-    - Multi-threaded for improved speed
+    Multi-threaded for improved speed
 
 #### Hash Cracker
 
