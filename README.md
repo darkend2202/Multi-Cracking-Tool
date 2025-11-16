@@ -49,10 +49,8 @@ Create wordlists using:
 -Progress bar while writing large lists
 
 # Installation
--git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
+git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 -cd Multi-Cracking-Tool
-git clone https://github.com/M3DUXA/Hash-Cracker.git
-cd password-cracker
 -pip install -r requirements.txt
 
 # Usage
