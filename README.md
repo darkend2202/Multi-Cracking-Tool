@@ -14,7 +14,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 
 -    Handles large wordlists like rockyou.txt using batch processing
     
--    ulti-threaded for improved speed
+-    Multi-threaded for improved speed
 
 #### Hash Cracker
 
