@@ -6,41 +6,41 @@ This project is a multi-module password and hash-cracking tool built using Pytho
 The tool is designed for educational and ethical cybersecurity testing only. It demonstrates concepts such as brute-force generation, multithreading, hashing, and file-based batch processing.
 
 ## Features
-#### PDF Password Cracker
+####  PDF Password Cracker
 
-   -Supports dictionary-based cracking
+    - Supports dictionary-based cracking
 
-   -Supports on-the-fly password generation
+    - Supports on-the-fly password generation
 
-   -Handles large wordlists like rockyou.txt using batch processing
+    - Handles large wordlists like rockyou.txt using batch processing
 
-   -Multi-threaded for improved speed
+    - Multi-threaded for improved speed
 
 #### Hash Cracker
 
-Supports common hash algorithms:
+    Supports common hash algorithms:
 
--MD5, SHA1, SHA224, SHA256, SHA384, SHA512
+    MD5, SHA1, SHA224, SHA256, SHA384, SHA512
 
--SHA3 family
+    SHA3 family
 
--Uses wordlist or generated passwords
+    Uses wordlist or generated passwords
 
--ThreadPoolExecutor for parallel attempts
+    ThreadPoolExecutor for parallel attempts
 
 #### Custom Wordlist Generator
 
 Create wordlists using:
 
--Letters
+    Letters
 
--Digits
+    Digits
 
--Symbols
+    Symbols
 
--Any custom character set
+    Any custom character set
 
--Adjustable min/max lengths
+    Adjustable min/max lengths
 
 ## Installation
 #### 1.Clone the repository:
