@@ -1,82 +1,79 @@
 # 🔐 Multi-Purpose Cracking Tool
 
 A fast, multi-feature security testing toolkit for PDFs, hashes, and custom wordlist generation.
-
-📌 Overview
-
 This project is a multi-module password and hash-cracking tool built using Python. It includes support for PDF password cracking, hash cracking, and custom wordlist generation using flexible character sets and multi-threading.
 
 The tool is designed for educational and ethical cybersecurity testing only. It demonstrates concepts such as brute-force generation, multithreading, hashing, and file-based batch processing.
 
-🚀 Features
-✅ PDF Password Cracker
+# Features
+##PDF Password Cracker
 
-Supports dictionary-based cracking
+-Supports dictionary-based cracking
 
-Supports on-the-fly password generation
+-Supports on-the-fly password generation
 
-Handles large wordlists like rockyou.txt using batch processing
+-Handles large wordlists like rockyou.txt using batch processing
 
-Multi-threaded for improved speed
+-Multi-threaded for improved speed
 
-Progress bar included with tqdm
+-Progress bar included with tqdm
 
-✅ Hash Cracker
+## Hash Cracker
 
-Supports common hash algorithms:
+-Supports common hash algorithms:
 
-MD5, SHA1, SHA224, SHA256, SHA384, SHA512
+-MD5, SHA1, SHA224, SHA256, SHA384, SHA512
 
-SHA3 family
+-SHA3 family
 
-Uses wordlist or generated passwords
+-Uses wordlist or generated passwords
 
-ThreadPoolExecutor for parallel attempts
+-ThreadPoolExecutor for parallel attempts
 
-Clean progress display
+-Clean progress display
 
-✅ Custom Wordlist Generator
+##Custom Wordlist Generator
 
 Create wordlists using:
 
-Letters
+-Letters
 
-Digits
+-Digits
 
-Symbols
+-Symbols
 
-Any custom character set
+-Any custom character set
 
-Adjustable min/max lengths
+-Adjustable min/max lengths
 
-Progress bar while writing large lists
+-Progress bar while writing large lists
 
-📦 Installation
-git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
-cd Multi-Cracking-Tool
-pip install -r requirements.txt
+#Installation
+-git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
+-cd Multi-Cracking-Tool
+-pip install -r requirements.txt
 
-🔧 Usage
-PDF Cracker
+# Usage
+##PDF Cracker
 python cracker.py pdfcrack file.pdf --wordlist rockyou.txt
 
-PDF Cracker (generate passwords)
+##PDF Cracker (generate passwords)
 python cracker.py pdfcrack file.pdf --generate --charset abc123 --min_length 1 --max_length 4
 
-Wordlist Generator
+##Wordlist Generator
 python cracker.py wordlistgen --charset abc123 --min_length 1 --max_length 5 --output list.txt
 
-Hash Cracker
+##Hash Cracker
 python cracker.py hashcrack <hash_value> -w wordlist.txt --hash_type sha256
 
-Hash Cracker (generate passwords)
+##Hash Cracker (generate passwords)
 python cracker.py hashcrack <hash_value> -c abc123 --min_length 2 --max_length 5 --hash_type sha256 
 
-⚠️ Legal Disclaimer
+#Legal Disclaimer
 
 This tool is intended ONLY for educational and authorized security testing.
 Misuse for illegal activities is strictly prohibited. You are responsible for your actions.
 
-🤝 Contributing
+#Contributing
 
 Pull requests and improvements are welcome!
