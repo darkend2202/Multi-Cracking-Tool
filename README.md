@@ -5,8 +5,8 @@ This project is a multi-module password and hash-cracking tool built using Pytho
 
 The tool is designed for educational and ethical cybersecurity testing only. It demonstrates concepts such as brute-force generation, multithreading, hashing, and file-based batch processing.
 
-# Features
-## PDF Password Cracker
+## Features
+### PDF Password Cracker
 
 -Supports dictionary-based cracking
 
@@ -18,7 +18,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 
 -Progress bar included with tqdm
 
-## Hash Cracker
+### Hash Cracker
 
 -Supports common hash algorithms:
 
@@ -32,7 +32,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 
 -Clean progress display
 
-## Custom Wordlist Generator
+### Custom Wordlist Generator
 
 Create wordlists using:
 
@@ -48,34 +48,34 @@ Create wordlists using:
 
 -Progress bar while writing large lists
 
-# Installation
-1.clone the repository:
+## Installation
+### 1.clone the repository:
 -git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 -cd Multi-Cracking-Tool
-2.Install dependencies: 
+### 2.Install dependencies: 
 -pip install -r requirements.txt
 
 # Usage
-## PDF Cracker
+### PDF Cracker
 python cracker.py pdfcrack file.pdf --wordlist rockyou.txt
 
-## PDF Cracker (generate passwords)
+### PDF Cracker (generate passwords)
 python cracker.py pdfcrack file.pdf --generate --charset abc123 --min_length 1 --max_length 4
 
-## Wordlist Generator
+### Wordlist Generator
 python cracker.py wordlistgen --charset abc123 --min_length 1 --max_length 5 --output list.txt
 
-## Hash Cracker
+### Hash Cracker
 python cracker.py hashcrack <hash_value> -w wordlist.txt --hash_type sha256
 
-## Hash Cracker (generate passwords)
+### Hash Cracker (generate passwords)
 python cracker.py hashcrack <hash_value> -c abc123 --min_length 2 --max_length 5 --hash_type sha256 
 
-# Legal Disclaimer
+## Legal Disclaimer
 
 This tool is intended ONLY for educational and authorized security testing.
 Misuse for illegal activities is strictly prohibited. You are responsible for your actions.
 
-# Contributing
+## Contributing
 
 Pull requests and improvements are welcome!
