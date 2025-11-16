@@ -6,7 +6,7 @@ This project is a multi-module password and hash-cracking tool built using Pytho
 The tool is designed for educational and ethical cybersecurity testing only. It demonstrates concepts such as brute-force generation, multithreading, hashing, and file-based batch processing.
 
 # Features
-##PDF Password Cracker
+## PDF Password Cracker
 
 -Supports dictionary-based cracking
 
@@ -32,7 +32,7 @@ The tool is designed for educational and ethical cybersecurity testing only. It 
 
 -Clean progress display
 
-##Custom Wordlist Generator
+## Custom Wordlist Generator
 
 Create wordlists using:
 
@@ -51,6 +51,8 @@ Create wordlists using:
 # Installation
 -git clone https://github.com/darkend2202/Multi-Cracking-Tool.git
 -cd Multi-Cracking-Tool
+git clone https://github.com/M3DUXA/Hash-Cracker.git
+cd password-cracker
 -pip install -r requirements.txt
 
 # Usage
