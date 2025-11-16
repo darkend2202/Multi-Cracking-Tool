@@ -6,7 +6,7 @@ This project is a multi-module password and hash-cracking tool built using Pytho
 The tool is designed for educational and ethical cybersecurity testing only. It demonstrates concepts such as brute-force generation, multithreading, hashing, and file-based batch processing.
 
 ## Features
-####  PDF Password Cracker
+-    #### PDF Password Cracker
 
     - Supports dictionary-based cracking
 
