@@ -175,7 +175,7 @@ def crack_hash(hash, wordlist=None, hash_type='md5', min_length=0, max_length=0,
         print(f"[*] Target Hash:{hash}")
         print(f"[*] Total Passwords:{total}")
         print(f"[*] Wordlist:{wordlist}")
-
+        print(f"[*] Hash Type:{hash_type}")
 
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             with tqdm(total=total, desc="Cracking hash", unit="pw") as pbar:
@@ -277,3 +277,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
