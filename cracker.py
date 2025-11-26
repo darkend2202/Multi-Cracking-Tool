@@ -15,15 +15,6 @@ def print_banner(text="My Tool", font="slant", color=Fore.CYAN):
     art = f.renderText(text)
     print(color + art + Style.RESET_ALL)
 
-if __name__ == "__main__":
-
-    TOOL_NAME = "Cracker"
-    VERSION = "v2.0"
-    print_banner(f"{TOOL_NAME} {VERSION}", font="slant", color=Fore.GREEN)
-    print(Fore.YELLOW + "Author: darkend.")
-    print(Fore.MAGENTA + "Use responsibly. Authorized testing only.\n")
-
-
 def generate_passwords(chars, min_length, max_length):
     for length in range(min_length, max_length + 1):
         for password in itertools.product(chars, repeat=length):
@@ -276,5 +267,11 @@ def main():
         print("[-] Password not found.")
 
 if __name__ == "__main__":
+    TOOL_NAME = "Cracker"
+    VERSION = "v2.0"
+    print_banner(f"{TOOL_NAME} {VERSION}", font="slant", color=Fore.GREEN)
+    print(Fore.YELLOW + "Author: darkend.")
+    print(Fore.MAGENTA + "Use responsibly. Authorized testing only.\n")
     main()
+
 
